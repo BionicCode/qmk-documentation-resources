@@ -1,3 +1,3 @@
 # QMK Documentation Resources
 
-Resources like images for referenceing in QMK documentation.
+Resource hosting for resources like images for referenceing within QMK documentation.
