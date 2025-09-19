@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(company "BionicKeyboards / QMK")
 	)
@@ -3047,6 +3047,17 @@
 	)
 	(text "HIGH (inactive)"
 		(exclude_from_sim no)
+		(at 310.388 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "1830788f-e89f-4a5a-8bde-070926d03949")
+	)
+	(text "HIGH (inactive)"
+		(exclude_from_sim no)
 		(at 167.894 38.862 0)
 		(effects
 			(font
@@ -3137,6 +3148,16 @@
 		)
 		(uuid "540c4437-9448-4be7-af14-ff3a3b2a9da5")
 	)
+	(text "Initial State Before a Matrix Scan\n"
+		(exclude_from_sim no)
+		(at 343.916 25.146 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "569f2dd2-4a8b-41ce-a7c8-3829c4c25563")
+	)
 	(text "Scanning Column0 and Row0"
 		(exclude_from_sim no)
 		(at 69.596 27.686 0)
@@ -3182,6 +3203,28 @@
 			)
 		)
 		(uuid "68b5b961-adf5-48fd-bbc5-1fd954024fd1")
+	)
+	(text "HIGH (inactive)"
+		(exclude_from_sim no)
+		(at 374.65 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "6fa0bb1b-57bf-4d93-853c-8560179aca49")
+	)
+	(text "HIGH (inactive)"
+		(exclude_from_sim no)
+		(at 310.388 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "77a3a0b9-7910-4f1c-811a-d8e8cfeca1dd")
 	)
 	(text "⇨"
 		(exclude_from_sim no)
@@ -3314,6 +3357,17 @@
 		)
 		(uuid "ce28e98c-a192-4935-968d-625e9737f8fb")
 	)
+	(text "HIGH (inactive)"
+		(exclude_from_sim no)
+		(at 329.438 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "e76592f9-4644-4d7b-b013-939656bb0168")
+	)
 	(text "Scanning Column1 and Row1"
 		(exclude_from_sim no)
 		(at 181.864 104.902 0)
@@ -3430,6 +3484,12 @@
 		(uuid "0fb43413-9bbd-4f04-9705-c2bbfea8274f")
 	)
 	(junction
+		(at 335.28 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc9f911-e4a0-48bf-aab1-e982c0f3ca16")
+	)
+	(junction
 		(at 173.99 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3502,16 +3562,34 @@
 		(uuid "ac0f01f2-8238-4d03-b15c-adf8145b805e")
 	)
 	(junction
+		(at 365.76 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3794cf-f00c-42e3-8d18-eaa180c25c72")
+	)
+	(junction
 		(at 173.99 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd93c778-d399-4caf-a27b-0e28be6f961f")
 	)
 	(junction
+		(at 320.04 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d56bd4ef-3e28-4390-ba08-6438484d66bd")
+	)
+	(junction
 		(at 173.99 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e851f9db-e56a-45cc-acdb-f4bb16b156c0")
+	)
+	(junction
+		(at 335.28 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6309743-266e-4c69-a695-3afe01eca525")
 	)
 	(wire
 		(pts
@@ -3575,6 +3653,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 80.01) (xy 335.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1340e099-c122-434e-a2a6-03b7e6332de1")
+	)
+	(wire
+		(pts
 			(xy 173.99 138.43) (xy 219.71 138.43)
 		)
 		(stroke
@@ -3612,6 +3700,16 @@
 			(type default)
 		)
 		(uuid "162ccf4e-f923-42fb-9b4c-3eb51c2e2812")
+	)
+	(wire
+		(pts
+			(xy 335.28 71.12) (xy 332.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18de33a5-9ff0-4c53-9ab3-2e591de794a0")
 	)
 	(wire
 		(pts
@@ -3695,6 +3793,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 71.12) (xy 378.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4f618c-c581-4b35-a1cd-bf07c342f3fb")
+	)
+	(wire
+		(pts
 			(xy 60.96 59.69) (xy 60.96 60.96)
 		)
 		(stroke
@@ -3732,6 +3840,16 @@
 			(type default)
 		)
 		(uuid "33833c1c-3daf-4102-9a2a-2ad391175a60")
+	)
+	(wire
+		(pts
+			(xy 381 71.12) (xy 381 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3630be9c-a039-4f0e-bf36-990f9936b7d2")
 	)
 	(wire
 		(pts
@@ -3785,6 +3903,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 58.42) (xy 335.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e72d1b5-148a-4d4f-b092-018594353383")
+	)
+	(wire
+		(pts
 			(xy 173.99 151.13) (xy 171.45 151.13)
 		)
 		(stroke
@@ -3792,6 +3920,16 @@
 			(type default)
 		)
 		(uuid "420bb46c-d8fe-46eb-b1ad-e7dcc05fea71")
+	)
+	(wire
+		(pts
+			(xy 365.76 71.12) (xy 368.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42108bfd-b92c-4919-8152-988dd418b99e")
 	)
 	(wire
 		(pts
@@ -3895,6 +4033,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 58.42) (xy 381 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdf8a2f-c163-40f7-b585-fdf1bc1a3398")
+	)
+	(wire
+		(pts
 			(xy 219.71 151.13) (xy 217.17 151.13)
 		)
 		(stroke
@@ -3965,6 +4113,26 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 48.26) (xy 335.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3e6da8-8511-4036-9489-284fc67f38cc")
+	)
+	(wire
+		(pts
+			(xy 309.88 81.28) (xy 335.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b244525-19ba-4120-8419-66787fd465aa")
+	)
+	(wire
+		(pts
 			(xy 158.75 128.27) (xy 158.75 151.13)
 		)
 		(stroke
@@ -3975,6 +4143,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 48.26) (xy 368.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74070a42-fec5-42ce-a01d-dc6f7b2ca7cc")
+	)
+	(wire
+		(pts
 			(xy 219.71 128.27) (xy 217.17 128.27)
 		)
 		(stroke
@@ -3982,6 +4160,16 @@
 			(type default)
 		)
 		(uuid "7a522cc7-4367-4ec0-b6e5-c875cae9df66")
+	)
+	(wire
+		(pts
+			(xy 320.04 71.12) (xy 322.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf90c4c-5f57-4474-b3ea-45ab90ab5517")
 	)
 	(wire
 		(pts
@@ -4002,6 +4190,16 @@
 			(type default)
 		)
 		(uuid "7f1f5b53-a314-49ba-b847-2a9e739bb961")
+	)
+	(wire
+		(pts
+			(xy 381 48.26) (xy 381 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ad637c-d1bb-4aec-8a1b-fc5a37030881")
 	)
 	(wire
 		(pts
@@ -4052,6 +4250,16 @@
 			(type default)
 		)
 		(uuid "90a7e8da-2306-4a09-a481-e7a6796cb125")
+	)
+	(wire
+		(pts
+			(xy 335.28 48.26) (xy 335.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98203457-e5d5-41ea-9097-25d6f63b6ee1")
 	)
 	(wire
 		(pts
@@ -4112,6 +4320,16 @@
 			(type default)
 		)
 		(uuid "abc39c72-c433-4c19-8e0e-2689c0461b0f")
+	)
+	(wire
+		(pts
+			(xy 320.04 41.91) (xy 320.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad40b324-dfd9-4a55-be8c-c69d64204464")
 	)
 	(wire
 		(pts
@@ -4185,6 +4403,26 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 48.26) (xy 365.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7acfafd-6156-4b73-96f5-b6c6c35d750e")
+	)
+	(wire
+		(pts
+			(xy 335.28 57.15) (xy 335.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba7b8861-208e-4382-b01f-2e78d3879f2b")
+	)
+	(wire
+		(pts
 			(xy 58.42 128.27) (xy 60.96 128.27)
 		)
 		(stroke
@@ -4235,6 +4473,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 48.26) (xy 378.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c237d74f-c049-4d0c-9c0a-46c7604169d4")
+	)
+	(wire
+		(pts
 			(xy 60.96 128.27) (xy 60.96 129.54)
 		)
 		(stroke
@@ -4252,6 +4500,26 @@
 			(type default)
 		)
 		(uuid "c8d22a87-a86e-45de-baaa-f3e0339c0f50")
+	)
+	(wire
+		(pts
+			(xy 381 57.15) (xy 381 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba60882-c1d3-4910-92ad-847812746e85")
+	)
+	(wire
+		(pts
+			(xy 320.04 48.26) (xy 322.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc597643-45bc-480f-841f-349bf5c043dc")
 	)
 	(wire
 		(pts
@@ -4325,6 +4593,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 80.01) (xy 381 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5da695d-7014-4726-b4a8-ff1c6b1ce0c5")
+	)
+	(wire
+		(pts
 			(xy 45.72 44.45) (xy 45.72 50.8)
 		)
 		(stroke
@@ -4342,6 +4620,16 @@
 			(type default)
 		)
 		(uuid "d61e4fe5-4b91-4253-a4e3-a1a139dfeb51")
+	)
+	(wire
+		(pts
+			(xy 320.04 48.26) (xy 320.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d842b260-8820-4b3f-83bd-e41f1c426527")
 	)
 	(wire
 		(pts
@@ -4382,6 +4670,16 @@
 			(type default)
 		)
 		(uuid "dda26cb0-df42-42ec-9aee-f99456db3831")
+	)
+	(wire
+		(pts
+			(xy 365.76 41.91) (xy 365.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e412ece8-ad71-489d-8882-4acf436a5897")
 	)
 	(wire
 		(pts
@@ -4432,6 +4730,26 @@
 			(type default)
 		)
 		(uuid "f0e1d12a-429e-4c89-86cf-46bf9e390598")
+	)
+	(wire
+		(pts
+			(xy 335.28 71.12) (xy 335.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f263a866-5b95-43a8-a84f-cda15d620ada")
+	)
+	(wire
+		(pts
+			(xy 335.28 81.28) (xy 381 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31f6fa4-ecb6-4e3b-b7c5-2a147de44e2f")
 	)
 	(wire
 		(pts
@@ -6467,6 +6785,29 @@
 	)
 	(hierarchical_label "ROW0"
 		(shape input)
+		(at 309.88 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify right)
+		)
+		(uuid "035ff22a-e875-42e1-8ca2-7f0e9cc10d0e")
+	)
+	(hierarchical_label "COLUMN1"
+		(shape input)
+		(at 365.76 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07166d0f-4450-4a5c-ac69-c2befb70c200")
+	)
+	(hierarchical_label "ROW0"
+		(shape input)
 		(at 35.56 83.82 180)
 		(effects
 			(font
@@ -6490,6 +6831,17 @@
 			(justify left)
 		)
 		(uuid "28421345-5a78-498f-a033-32becb520f3a")
+	)
+	(hierarchical_label "ROW0"
+		(shape input)
+		(at 309.88 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31fd2425-dc8e-4fe9-9fa0-0874e76321a4")
 	)
 	(hierarchical_label "ROW0"
 		(shape output)
@@ -6531,6 +6883,18 @@
 			(justify left)
 		)
 		(uuid "5c02c01e-5b30-41ee-ab38-55a2d412af05")
+	)
+	(hierarchical_label "COLUMN0"
+		(shape input)
+		(at 320.04 41.91 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "7cd3db8c-e25d-4c81-8e3a-93ce1dfef30d")
 	)
 	(hierarchical_label "ROW0"
 		(shape input)
@@ -6812,7 +7176,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 53.848 154.686 0)
 			(effects
 				(font
@@ -6895,6 +7259,121 @@
 			(project "matrix_scanning_example"
 				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
 					(reference "Key2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 381 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6d3b80-1c50-4e38-ab22-aa4b4c7ed7d1")
+		(property "Reference" "D3"
+			(at 383.54 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 383.54 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Custom:1N4148WS_SOD-323"
+			(at 385.445 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jscj-elec.com/gallery//file/AD-BAV16WS_1N4148WS.pdf"
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-323 Switching Diodes ROHS"
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2128"
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "1N4148WS"
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Basic"
+			(at 381 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ec48bc-df8b-49e4-8b0c-9060b1f9c867")
+		)
+		(pin "2"
+			(uuid "79adc9a1-21fd-4009-83a3-151d27029a81")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7034,7 +7513,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 99.568 74.676 0)
 			(effects
 				(font
@@ -7292,7 +7771,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 212.598 152.146 0)
 			(effects
 				(font
@@ -7417,6 +7896,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 381 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3156ae25-9cfc-4fe6-b481-792fa8736e09")
+		(property "Reference" "D4"
+			(at 383.54 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 383.54 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Custom:1N4148WS_SOD-323"
+			(at 385.445 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jscj-elec.com/gallery//file/AD-BAV16WS_1N4148WS.pdf"
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-323 Switching Diodes ROHS"
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2128"
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "1N4148WS"
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Basic"
+			(at 381 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d9d4359-7b4e-4495-878d-64841c6cc1fe")
+		)
+		(pin "2"
+			(uuid "ee4f95d3-dc71-4c7c-88e1-2d0d356248b8")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_2")
 		(lib_id "custom:1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout")
 		(at 53.34 76.2 0)
@@ -7435,7 +8029,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 53.848 77.216 0)
 			(effects
 				(font
@@ -7542,7 +8136,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 212.598 129.286 0)
 			(effects
 				(font
@@ -7685,7 +8279,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 166.878 51.816 0)
 			(effects
 				(font
@@ -7925,6 +8519,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 335.28 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4404c1c0-f4fb-4987-9299-95dc59156fc2")
+		(property "Reference" "D2"
+			(at 337.82 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 337.82 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Custom:1N4148WS_SOD-323"
+			(at 339.725 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jscj-elec.com/gallery//file/AD-BAV16WS_1N4148WS.pdf"
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-323 Switching Diodes ROHS"
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2128"
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "1N4148WS"
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Basic"
+			(at 335.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b9c4edc-333c-4ab1-bd6d-5c0550373159")
+		)
+		(pin "2"
+			(uuid "f763f62e-2e76-45e6-9f89-70181e9d94c3")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SW_Push_4")
 		(lib_id "Switch:SW_Push")
 		(at 53.34 50.8 0)
@@ -7943,7 +8652,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 53.848 51.816 0)
 			(effects
 				(font
@@ -8298,6 +9007,149 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_2")
+		(lib_id "Switch:SW_Push")
+		(at 373.38 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "563824c8-67a5-4f63-8590-817f838e8fe0")
+		(property "Reference" "Key4"
+			(at 373.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 373.888 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 373.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part.Notes" ""
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" ""
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43381d58-8cb5-4638-854b-0199ba0546b6")
+		)
+		(pin "1"
+			(uuid "ee99c861-895a-46f3-84df-de4cfaac53bf")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "Key4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_3")
 		(lib_id "custom:1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout")
 		(at 166.37 153.67 0)
@@ -8316,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 166.878 154.686 0)
 			(effects
 				(font
@@ -8538,7 +9390,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 166.878 77.216 0)
 			(effects
 				(font
@@ -8857,6 +9709,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 335.28 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cb36f44-bd03-4378-9f23-2783686e6b63")
+		(property "Reference" "D1"
+			(at 337.82 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 337.82 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Custom:1N4148WS_SOD-323"
+			(at 339.725 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jscj-elec.com/gallery//file/AD-BAV16WS_1N4148WS.pdf"
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V Independent Type 1.25V@150mA 4ns 150mA SOD-323 Switching Diodes ROHS"
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2128"
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "1N4148WS"
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Basic"
+			(at 335.28 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f03b2b6c-db55-401c-b23e-c33ccf4f5aba")
+		)
+		(pin "2"
+			(uuid "3ab00316-3446-4100-9457-ee54b1b5aac0")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "SW_Push_9")
 		(lib_id "Switch:SW_Push")
 		(at 99.06 151.13 0)
@@ -8875,7 +9842,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 99.568 152.146 0)
 			(effects
 				(font
@@ -9018,7 +9985,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 99.568 51.816 0)
 			(effects
 				(font
@@ -9137,6 +10104,149 @@
 			(project "matrix_scanning_example"
 				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
 					(reference "Key3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_4")
+		(lib_id "Switch:SW_Push")
+		(at 327.66 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c87e9b9-77ba-4371-86e5-fdfb5ba6d435")
+		(property "Reference" "Key1"
+			(at 327.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 328.168 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 327.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part.Notes" ""
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" ""
+			(at 327.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5364b1d4-1558-49d6-a8f9-ddf81d6be6fd")
+		)
+		(pin "1"
+			(uuid "78deaf00-6f86-473a-804a-7b8eecbbefdf")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "Key1")
 					(unit 1)
 				)
 			)
@@ -9276,7 +10386,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 212.598 51.816 0)
 			(effects
 				(font
@@ -9419,7 +10529,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 212.598 74.676 0)
 			(effects
 				(font
@@ -9653,6 +10763,149 @@
 			(project "matrix_scanning_example"
 				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_8")
+		(lib_id "Switch:SW_Push")
+		(at 373.38 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad84cc75-3ec2-4eda-ab0d-66a6a7568c73")
+		(property "Reference" "Key3"
+			(at 373.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 373.888 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 373.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part.Notes" ""
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" ""
+			(at 373.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15e616c5-e690-434d-a13b-8d4550b432bc")
+		)
+		(pin "1"
+			(uuid "8170b805-2ff6-4d50-9164-31b35607f189")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "Key3")
 					(unit 1)
 				)
 			)
@@ -9907,7 +11160,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 166.878 129.286 0)
 			(effects
 				(font
@@ -10280,7 +11533,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 99.568 129.286 0)
 			(effects
 				(font
@@ -10537,7 +11790,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 53.848 129.286 0)
 			(effects
 				(font
@@ -10656,6 +11909,113 @@
 			(project "matrix_scanning_example"
 				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
 					(reference "Key1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_2")
+		(lib_id "custom:1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout")
+		(at 327.66 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc33d551-4251-403b-be61-ffaed411279f")
+		(property "Reference" "Key2"
+			(at 327.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 328.168 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 327.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 327.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 327.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 327.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 327.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 327.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d9b5087-d48e-434a-b834-bc12419cb6f9")
+		)
+		(pin "1"
+			(uuid "e65ae871-9556-43e9-b180-382a8ff95792")
+		)
+		(instances
+			(project "matrix_scanning_example"
+				(path "/5a10cd0c-47e9-4430-99ae-7b8dbac2a1d1"
+					(reference "Key2")
 					(unit 1)
 				)
 			)
