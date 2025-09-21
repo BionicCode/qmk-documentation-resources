@@ -1140,7 +1140,7 @@
 	)
 	(text_box "No current flows through 'Key1' because 'ROW0' and 'COLUMN0' are both HIGH (current does not flow between same voltage potentials)."
 		(exclude_from_sim no)
-		(at 74.93 113.03 0)
+		(at 73.66 113.03 0)
 		(size 36.83 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

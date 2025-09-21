@@ -1660,8 +1660,8 @@
 		)
 	)
 	(rectangle
-		(start 54.61 139.7)
-		(end 105.41 157.48)
+		(start 34.29 134.62)
+		(end 85.09 152.4)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -1673,7 +1673,7 @@
 	)
 	(text "Scanning COLUMN0 and ROW1"
 		(exclude_from_sim no)
-		(at 89.916 103.124 0)
+		(at 69.596 98.044 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1683,7 +1683,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 132.842 157.988 0)
+		(at 112.522 152.908 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1692,9 +1692,42 @@
 		)
 		(uuid "02c570da-294e-4770-8116-ac3a8e0353ed")
 	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 227.838 69.85 90)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "03cfca55-10c8-4a27-9fcf-fcc413fa0403")
+	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 87.376 160.782 0)
+		(at 222.758 44.704 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "06349bfe-9ff5-424f-8333-a41a6d6954d8")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 194.818 44.958 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "088875ba-518c-4b0b-bc6d-c1ffd190884e")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 67.056 155.702 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1705,7 +1738,7 @@
 	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 60.452 50.292 0)
+		(at 40.132 45.212 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1716,7 +1749,7 @@
 	)
 	(text "LOW     'Key2' key press detected"
 		(exclude_from_sim no)
-		(at 55.118 112.522 0)
+		(at 34.798 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1730,7 +1763,7 @@
 	)
 	(text "LOW"
 		(exclude_from_sim no)
-		(at 38.354 165.1 0)
+		(at 18.034 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1743,7 +1776,18 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 132.588 130.048 90)
+		(at 194.31 73.152 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "1534cdb1-e131-4540-b989-6d1f7700429f")
+	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 112.268 124.968 90)
 		(effects
 			(font
 				(size 5 5)
@@ -1754,7 +1798,7 @@
 	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 88.138 50.038 0)
+		(at 67.818 44.958 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1765,7 +1809,7 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 60.706 43.942 0)
+		(at 40.386 38.862 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1776,7 +1820,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 120.904 145.796 0)
+		(at 100.584 140.716 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1787,7 +1831,7 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 87.63 132.842 0)
+		(at 67.31 127.762 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1796,9 +1840,20 @@
 		)
 		(uuid "28bd3997-edc8-4596-8898-61425c12a38e")
 	)
+	(text "LOW (inactive)"
+		(exclude_from_sim no)
+		(at 168.656 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "2b54759e-9761-4086-9058-fe701215f30a")
+	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 117.856 120.904 0)
+		(at 97.536 115.824 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1807,9 +1862,20 @@
 		)
 		(uuid "2e7d0c79-7b0b-495c-a1f5-9638cfa5be4d")
 	)
+	(text "↓"
+		(exclude_from_sim no)
+		(at 173.482 41.656 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "2ee76168-ff7d-47f1-9f83-17056d9fca21")
+	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 46.736 132.842 0)
+		(at 26.416 127.762 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1818,9 +1884,20 @@
 		)
 		(uuid "30da2e73-e042-4d63-9416-c11c7fffa794")
 	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 154.432 45.212 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "33cbaac9-5d6a-4812-93e5-21f529b262e2")
+	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 127.762 132.842 0)
+		(at 107.442 127.762 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1831,7 +1908,7 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 47.244 78.232 0)
+		(at 26.924 73.152 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1842,7 +1919,7 @@
 	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 127 126.492 0)
+		(at 106.68 121.412 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1851,9 +1928,19 @@
 		)
 		(uuid "39d39bf0-c6ac-4ee6-ae02-9feec78e6ac2")
 	)
+	(text "Scanning COLUMN1 and ROW0"
+		(exclude_from_sim no)
+		(at 196.342 16.002 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "3e0fc698-f714-4f3b-ad96-35b20c603d07")
+	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 87.63 78.232 0)
+		(at 67.31 73.152 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1864,7 +1951,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 51.816 120.904 0)
+		(at 31.496 115.824 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1873,9 +1960,20 @@
 		)
 		(uuid "41fc92ab-ff28-42b6-936f-2df8f224ffd4")
 	)
+	(text "↓"
+		(exclude_from_sim no)
+		(at 158.496 33.274 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "46866c60-f1db-42db-aca6-c3806262b9fa")
+	)
 	(text "LOW"
 		(exclude_from_sim no)
-		(at 38.354 54.61 0)
+		(at 18.034 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1886,9 +1984,42 @@
 		)
 		(uuid "49d62c32-ef23-4f40-aa3e-7fddcd54ef04")
 	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 212.598 41.148 90)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "573f2bc0-2967-4664-98b4-366a004f386d")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 222.25 66.294 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "5e8477ec-0849-4c8c-a866-edea041875be")
+	)
+	(text "⇨"
+		(exclude_from_sim no)
+		(at 223.52 25.4 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "6004cd77-2682-4941-aa49-cfd68cea014f")
+	)
 	(text "LOW (inactive)"
 		(exclude_from_sim no)
-		(at 43.434 82.296 0)
+		(at 23.114 77.216 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1899,7 +2030,7 @@
 	)
 	(text "Scanning COLUMN0 and ROW0"
 		(exclude_from_sim no)
-		(at 89.662 21.082 0)
+		(at 69.342 16.002 0)
 		(effects
 			(font
 				(size 2 2)
@@ -1909,7 +2040,7 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 121.158 74.93 90)
+		(at 100.838 69.85 90)
 		(effects
 			(font
 				(size 5 5)
@@ -1920,7 +2051,7 @@
 	)
 	(text "LOW (inactive)"
 		(exclude_from_sim no)
-		(at 43.434 136.906 0)
+		(at 23.114 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +2062,18 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 105.918 61.214 90)
+		(at 222.25 38.862 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "840e98f3-7659-4bde-9daf-3e55ae46311b")
+	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 85.598 56.134 90)
 		(effects
 			(font
 				(size 5 5)
@@ -1940,9 +2082,9 @@
 		)
 		(uuid "84d892e1-ea96-45d4-8a04-e8acd1e07904")
 	)
-	(text "LOW     'Key0' key press detected"
+	(text "LOW     'Key1' key press detected"
 		(exclude_from_sim no)
-		(at 55.88 30.48 0)
+		(at 35.56 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1956,7 +2098,18 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 127 154.686 0)
+		(at 222.25 73.152 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "8d858150-32b3-482e-a1b3-21bd0c47430d")
+	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 106.68 149.606 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1967,7 +2120,7 @@
 	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 47.244 160.782 0)
+		(at 26.924 155.702 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1976,9 +2129,20 @@
 		)
 		(uuid "8ef9bec7-3555-437b-b30b-3c57e4e20850")
 	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 85.598 41.148 90)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "9476d57d-19d6-4068-b51e-7129fdbf6a8b")
+	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 116.078 49.784 0)
+		(at 95.758 44.704 0)
 		(effects
 			(font
 				(size 5 5)
@@ -1987,9 +2151,34 @@
 		)
 		(uuid "95d5aff1-2421-4ca3-9cdb-b9d846ad08b4")
 	)
+	(text "LOW     'Key3' key press detected"
+		(exclude_from_sim no)
+		(at 216.916 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+			(justify left)
+		)
+		(uuid "96944075-3524-470a-b0dc-b65fd6e32689")
+	)
+	(text "LOW (inactive)"
+		(exclude_from_sim no)
+		(at 150.114 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "a00d9bb1-4f74-4f91-872c-fe988ea4a746")
+	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 115.57 43.942 0)
+		(at 95.25 38.862 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2000,7 +2189,7 @@
 	)
 	(text "⇨"
 		(exclude_from_sim no)
-		(at 61.722 112.268 0)
+		(at 41.402 107.188 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2011,7 +2200,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 106.426 37.846 0)
+		(at 86.106 32.766 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2022,7 +2211,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 66.802 129.286 0)
+		(at 46.482 124.206 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2033,7 +2222,7 @@
 	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 60.706 126.492 0)
+		(at 40.386 121.412 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2042,9 +2231,31 @@
 		)
 		(uuid "b90c4914-4104-4d32-8550-88b2eeafe004")
 	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 167.386 38.862 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "c03e4632-1c1a-4ff2-8992-7d4d3ed0eb03")
+	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 66.802 46.736 0)
+		(at 228.092 41.656 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "c10da794-1268-4d6a-b966-61fee99d90db")
+	)
+	(text "↓"
+		(exclude_from_sim no)
+		(at 46.482 41.656 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2055,7 +2266,7 @@
 	)
 	(text "⇨"
 		(exclude_from_sim no)
-		(at 62.484 30.226 0)
+		(at 42.164 25.146 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2066,7 +2277,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 51.816 38.354 0)
+		(at 31.496 33.274 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2077,7 +2288,7 @@
 	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 47.752 50.292 0)
+		(at 27.432 45.212 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2088,7 +2299,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 121.412 46.736 0)
+		(at 101.092 41.656 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2097,9 +2308,20 @@
 		)
 		(uuid "d714f43d-3aa9-4925-8870-be82e8d3035e")
 	)
+	(text "↓"
+		(exclude_from_sim no)
+		(at 213.106 32.766 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "e187b895-f8c7-40a1-a76e-677ef82e959d")
+	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 127 160.782 0)
+		(at 106.68 155.702 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2108,9 +2330,20 @@
 		)
 		(uuid "e27c4935-028e-4aa9-a81e-4ca531499a4d")
 	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 212.598 56.134 90)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "e6fae10b-746b-45fa-ad1a-1d26ecd4fdc8")
+	)
 	(text "LOW (inactive)"
 		(exclude_from_sim no)
-		(at 116.586 30.48 0)
+		(at 96.266 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2119,9 +2352,31 @@
 		)
 		(uuid "e8886e3f-e88f-4063-ba2b-fed7bd16eefe")
 	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 153.924 73.152 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 0 15 1)
+			)
+		)
+		(uuid "e9186c7f-0aea-42f7-9813-9d27d9d22473")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 167.132 45.212 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "eac498b2-2127-43df-a34d-69e34fe4f372")
+	)
 	(text "LOW (inactive)"
 		(exclude_from_sim no)
-		(at 128.27 112.522 0)
+		(at 107.95 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2132,7 +2387,7 @@
 	)
 	(text "↓"
 		(exclude_from_sim no)
-		(at 120.904 129.794 0)
+		(at 100.584 124.714 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2141,9 +2396,22 @@
 		)
 		(uuid "f2d01476-9937-4d35-a3f1-c8d249b99a70")
 	)
+	(text "LOW"
+		(exclude_from_sim no)
+		(at 145.034 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "f8127ada-3572-48eb-baf6-dd2fa14e0cad")
+	)
 	(text "→"
 		(exclude_from_sim no)
-		(at 115.57 78.232 0)
+		(at 95.25 73.152 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2154,7 +2422,7 @@
 	)
 	(text "←"
 		(exclude_from_sim no)
-		(at 115.57 71.374 0)
+		(at 95.25 66.294 0)
 		(effects
 			(font
 				(size 5 5)
@@ -2165,7 +2433,7 @@
 	)
 	(text_box "Missing diode barrier ==> no isolation between rows and columns: Without a diode at 'Key3', current from other columns can leak sideways through closed switches into the active 'ROW1' (LOW). This lack of isolation enables the 'COLUMN0'-->'ROW1' phantom path. Diodes isolate rows and columns and prevent this."
 		(exclude_from_sim no)
-		(at 134.62 119.38 0)
+		(at 114.3 114.3 0)
 		(size 41.91 26.67)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2183,9 +2451,9 @@
 		)
 		(uuid "04d63f71-af8e-4c71-855f-a0ffb678380a")
 	)
-	(text_box "Just note how prasitic effects are introduced when designing without diodes. Since there are no diodes to isolate adjacent rows and columns from each other, the depicted scenario of three simulatneously... \n\n\n...pressed keys creates a mesh consisting of three current loops (Kirchhoffs Law).\n\nThese current loops are not relevant in terms of noise or power efficiency, since the currents involved are low. But they introduce the ghosting effect, which becomes visible as phantom key presses during the next step when scanning the next row."
+	(text_box "Just note how prasitic effects are introduced when designing without diodes. Since there are no diodes to isolate adjacent rows and columns from each other, the depicted scenario of three simulatneously... \n\n\n...pressed keys creates a mesh consisting of three current loops (Kirchhoffs Law).\n\nThese current loops are not relevant in terms of electrical noise or power efficiency, since the currents involved are low. But they introduce the ghosting effect, which becomes visible as phantom key presses during the next step when scanning the next row."
 		(exclude_from_sim no)
-		(at 68.58 35.56 0)
+		(at 48.26 30.48 0)
 		(size 38.1 40.64)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2203,9 +2471,29 @@
 		)
 		(uuid "08878757-de9e-426d-bfe2-fb1c23d1fd8a")
 	)
+	(text_box "Missing diode allows current to flow from 'ROW1'-->'ROW0'. Because 'Key3' is also closed, the closed 'Key4' switch essentially connects 'ROW1' to 'ROW0', effectively pulling 'ROW1' LOW too."
+		(exclude_from_sim no)
+		(at 229.87 62.23 0)
+		(size 34.29 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0d6238e9-e0df-452a-9342-4777c396443f")
+	)
 	(text_box "Is LOW due to the closed connection path to 'ROW0' via the closed switch 'Key3'."
 		(exclude_from_sim no)
-		(at 123.19 26.67 0)
+		(at 102.87 21.59 0)
 		(size 33.02 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2225,7 +2513,7 @@
 	)
 	(text_box "Last corner of the phantom path ('ROW1' scan): With 'ROW1' active (LOW) and 'Key4' closed, leakage into the sideways conduction chain 'COLUMN0'-->'ROW1' has become possible. Because there are no diodes, current can leak sideways, pulling 'COLUMN0' LOW and creating a ghost/phantom press at 'Key'2. Per-switch diodes prevent this."
 		(exclude_from_sim no)
-		(at 134.62 146.05 0)
+		(at 114.3 140.97 0)
 		(size 41.91 19.05)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2243,9 +2531,29 @@
 		)
 		(uuid "45effb0a-a1f9-4c8c-8ce6-8be7c1d63ca6")
 	)
+	(text_box "Because 'COLUMN1' is not isolated by a diode, 'COLUMN1' and 'ROW1' are also pulled LOW and sourcing current into ROW0. Since 'COLUMN1' is currently not scanned, the key press remains undetected. However, closing 'Key3' sets up the ghosting effect, which reveals itself during the upcoming scanning of the next row ' ROW1'."
+		(exclude_from_sim no)
+		(at 229.87 31.75 0)
+		(size 38.1 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "46f3c704-075c-4b87-91c9-754041323875")
+	)
 	(text_box "First corner of the phantom path: With 'ROW1' selected and 'Key1' closed, 'COLUMN0' is able to provide the current for the sideways conduction path 'COLUMN0'-->'ROW1'. This path pulls 'COLUMN0' LOW, so the controller falsely reports 'Key2' as pressed (ghost/phantom). Diodes would block this path."
 		(exclude_from_sim no)
-		(at 68.58 116.84 0)
+		(at 48.26 111.76 0)
 		(size 49.53 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2265,7 +2573,7 @@
 	)
 	(text_box "Is LOW due to the closed connection path to 'ROW0' (no diode at 'Key4')."
 		(exclude_from_sim no)
-		(at 35.56 82.55 0)
+		(at 15.24 77.47 0)
 		(size 33.02 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2283,9 +2591,9 @@
 		)
 		(uuid "61b89397-4ff7-4f48-a36c-a3ed8488891e")
 	)
-	(text_box "Because 'COLUMN1' is not isolated by a diode, 'COLUMN1' is also pulled LOW and sourcing current into ROW0. Since 'COLUMN1' is currently not scanned, the key press remains undetected. However, closing 'Key3' sets up the ghosting effect, which reveals itself during the upcoming scanning of the next row ' ROW1'."
+	(text_box "Because 'COLUMN1' is not isolated by a diode, 'COLUMN1' and 'ROW1' are also pulled LOW and sourcing current into ROW0. Since 'COLUMN1' is currently not scanned, the key press remains undetected. However, closing 'Key3' sets up the ghosting effect, which reveals itself during the upcoming scanning of the next row ' ROW1'."
 		(exclude_from_sim no)
-		(at 123.19 36.83 0)
+		(at 102.87 31.75 0)
 		(size 38.1 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2305,7 +2613,7 @@
 	)
 	(text_box "Missing diode allows current to flow from 'ROW1'-->'ROW0'. Because 'Key3' is also closed, the closed 'Key4' switch essentially connects 'ROW1' to 'ROW0', effectively pulling 'ROW1' LOW too."
 		(exclude_from_sim no)
-		(at 123.19 67.31 0)
+		(at 102.87 62.23 0)
 		(size 34.29 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2323,9 +2631,9 @@
 		)
 		(uuid "7c93812a-dfa7-4bef-b1b3-3cac9eb78318")
 	)
-	(text_box "Is LOW due to the closed connection path to 'ROW1' (missong diode at 'Key3')."
+	(text_box "Is LOW due to the closed connection path to 'ROW1' (missing diode at 'Key3')."
 		(exclude_from_sim no)
-		(at 35.56 137.16 0)
+		(at 15.24 132.08 0)
 		(size 19.05 13.97)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2343,9 +2651,49 @@
 		)
 		(uuid "8352c5da-18c1-4874-b768-790418309224")
 	)
+	(text_box "Is LOW due to the closed connection path to 'ROW0' via the closed switch 'Key1'."
+		(exclude_from_sim no)
+		(at 175.26 21.59 0)
+		(size 33.02 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8b7870f1-7baf-4e25-9df6-dddfda10c859")
+	)
+	(text_box "Is LOW due to the closed connection path to 'ROW0' (no diode at 'Key4')."
+		(exclude_from_sim no)
+		(at 142.24 77.47 0)
+		(size 33.02 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "95d1f7d4-e9bc-4b01-91a8-fa2e07a89c58")
+	)
 	(text_box "Is LOW due to the closed connection path to 'ROW1' via the closed switch 'Key4'."
 		(exclude_from_sim no)
-		(at 134.62 107.95 0)
+		(at 114.3 102.87 0)
 		(size 33.02 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2365,7 +2713,7 @@
 	)
 	(text_box "Phantom path ('ROW1' scan): Although 'Key2' is physically open, an unintended sideways conduction path 'COLUMN0'-->'ROW1' pulls 'COLUMN0' LOW, so the controller falsely registers 'Key2' as pressed (ghost/phantom keypress). Per-switch diodes block this path."
 		(exclude_from_sim yes)
-		(at 68.58 139.7 0)
+		(at 48.26 134.62 0)
 		(size 36.83 16.51)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2384,56 +2732,80 @@
 		(uuid "f99bb14d-2e89-4db4-840f-9e4a675af1a6")
 	)
 	(junction
-		(at 68.58 134.62)
+		(at 48.26 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21d66b5e-5ae6-48b5-9c35-07fae6df1520")
 	)
 	(junction
-		(at 53.34 41.91)
+		(at 33.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26265014-10c4-47b4-b798-fe8337bc238e")
 	)
 	(junction
-		(at 107.95 41.91)
+		(at 87.63 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73db807e-399a-476d-8693-a2ae95dcf419")
 	)
 	(junction
-		(at 53.34 124.46)
+		(at 33.02 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9078ddd7-936e-4c85-ba47-f97decc0e3b4")
 	)
 	(junction
-		(at 68.58 162.56)
+		(at 160.02 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aefd51d5-7f79-4fdf-a52f-a4ca2b46f03e")
+	)
+	(junction
+		(at 214.63 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f931e1-26b2-48ae-b70a-e5ca1091209e")
+	)
+	(junction
+		(at 48.26 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcf48458-6f6d-4db3-84a1-c379fa98ab1d")
 	)
 	(junction
-		(at 119.38 124.46)
+		(at 99.06 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd00a9e2-b6c3-4023-ba44-77f1c35a7558")
 	)
 	(junction
-		(at 68.58 80.01)
+		(at 48.26 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf68d6c2-56de-4934-ab12-916370587d6b")
 	)
 	(junction
-		(at 68.58 52.07)
+		(at 175.26 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c233166a-dcbf-4efa-955c-4a977bbf4346")
+	)
+	(junction
+		(at 175.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b91f59-ad77-4f63-8e3a-f89f419caa68")
+	)
+	(junction
+		(at 48.26 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9394f15-e8e7-4264-80e3-21fe4992b3a7")
 	)
 	(wire
 		(pts
-			(xy 53.34 124.46) (xy 53.34 152.4)
+			(xy 33.02 119.38) (xy 33.02 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 41.91) (xy 68.58 41.91)
+			(xy 45.72 36.83) (xy 48.26 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 110.49 69.85)
+			(xy 87.63 64.77) (xy 90.17 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 124.46) (xy 68.58 124.46)
+			(xy 45.72 119.38) (xy 48.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2845,47 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 132.08 124.46)
+			(xy 229.87 36.83) (xy 229.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6365dd-712b-4c3e-9dac-79017ccdf12d")
+	)
+	(wire
+		(pts
+			(xy 175.26 36.83) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2130b4-6788-4bac-852e-0c077b135fc7")
+	)
+	(wire
+		(pts
+			(xy 214.63 36.83) (xy 214.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0e2373-297f-4d3d-89b4-17601d683666")
+	)
+	(wire
+		(pts
+			(xy 149.86 74.93) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c420e8-6111-426a-bef2-ad03ab233f4c")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 111.76 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2895,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 41.91) (xy 110.49 41.91)
+			(xy 160.02 64.77) (xy 162.56 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234dae4b-4cfc-4dc3-b56b-10b61a7bf49e")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 90.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 124.46) (xy 134.62 134.62)
+			(xy 114.3 119.38) (xy 114.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2503,7 +2925,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 123.19 52.07)
+			(xy 48.26 46.99) (xy 102.87 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 66.04 152.4)
+			(xy 48.26 147.32) (xy 45.72 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 134.62) (xy 68.58 134.62)
+			(xy 22.86 129.54) (xy 48.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 66.04 69.85)
+			(xy 48.26 64.77) (xy 45.72 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 41.91) (xy 120.65 41.91)
+			(xy 102.87 36.83) (xy 100.33 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 121.92 124.46)
+			(xy 99.06 119.38) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 152.4) (xy 121.92 152.4)
+			(xy 99.06 147.32) (xy 101.6 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +2995,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 53.34 69.85)
+			(xy 175.26 74.93) (xy 229.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df353aa-1c81-46ac-be6c-98fc5534ab34")
+	)
+	(wire
+		(pts
+			(xy 33.02 36.83) (xy 33.02 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 41.91) (xy 68.58 52.07)
+			(xy 48.26 36.83) (xy 48.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 119.38 152.4)
+			(xy 99.06 119.38) (xy 99.06 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 41.91) (xy 55.88 41.91)
+			(xy 33.02 36.83) (xy 35.56 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +3045,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 152.4) (xy 132.08 152.4)
+			(xy 149.86 46.99) (xy 175.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598add8f-4082-43b0-a230-26d4b09d3ebf")
+	)
+	(wire
+		(pts
+			(xy 114.3 147.32) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 80.01) (xy 123.19 80.01)
+			(xy 48.26 74.93) (xy 102.87 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +3075,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 35.56) (xy 53.34 41.91)
+			(xy 160.02 36.83) (xy 162.56 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbcb706-d2f7-47f2-a36c-f18b1b748650")
+	)
+	(wire
+		(pts
+			(xy 33.02 30.48) (xy 33.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2643,7 +3095,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 52.07) (xy 68.58 52.07)
+			(xy 214.63 30.48) (xy 214.63 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728160dd-364d-4fa2-917a-9412ab5335d1")
+	)
+	(wire
+		(pts
+			(xy 22.86 46.99) (xy 48.26 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 118.11) (xy 53.34 124.46)
+			(xy 33.02 113.03) (xy 33.02 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 68.58 162.56)
+			(xy 48.26 147.32) (xy 48.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2673,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 35.56) (xy 107.95 41.91)
+			(xy 87.63 30.48) (xy 87.63 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 69.85) (xy 55.88 69.85)
+			(xy 33.02 64.77) (xy 35.56 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +3155,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 120.65 69.85)
+			(xy 175.26 46.99) (xy 229.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3ac3ce-a145-4d54-84fa-8b2b4cb7f9f2")
+	)
+	(wire
+		(pts
+			(xy 102.87 64.77) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +3175,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 124.46) (xy 68.58 134.62)
+			(xy 48.26 119.38) (xy 48.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2713,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 123.19 80.01)
+			(xy 102.87 64.77) (xy 102.87 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2723,7 +3195,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 119.38 124.46)
+			(xy 175.26 64.77) (xy 172.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7c36c4-ce75-4d0c-8ece-35316c693cae")
+	)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 99.06 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +3215,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 152.4) (xy 134.62 162.56)
+			(xy 229.87 64.77) (xy 229.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35a5f27-30d9-48ec-8132-b3ef00fdba58")
+	)
+	(wire
+		(pts
+			(xy 114.3 147.32) (xy 114.3 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 55.88 152.4)
+			(xy 33.02 147.32) (xy 35.56 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +3245,37 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 124.46) (xy 55.88 124.46)
+			(xy 214.63 36.83) (xy 217.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8257036-1cbc-4133-858f-9d41218e3cb2")
+	)
+	(wire
+		(pts
+			(xy 160.02 30.48) (xy 160.02 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff5a95f-552d-43a8-bcd7-5733c86c77ba")
+	)
+	(wire
+		(pts
+			(xy 214.63 64.77) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c951380b-f318-47dd-9bd0-e38d7baac137")
+	)
+	(wire
+		(pts
+			(xy 33.02 119.38) (xy 35.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 80.01) (xy 68.58 80.01)
+			(xy 22.86 74.93) (xy 48.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 41.91) (xy 123.19 52.07)
+			(xy 102.87 36.83) (xy 102.87 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2783,7 +3305,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 134.62) (xy 134.62 134.62)
+			(xy 229.87 64.77) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23954d2-10ef-4c8d-8e99-cebc811c4641")
+	)
+	(wire
+		(pts
+			(xy 48.26 129.54) (xy 114.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2793,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 69.85) (xy 68.58 80.01)
+			(xy 48.26 64.77) (xy 48.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +3335,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 41.91) (xy 107.95 69.85)
+			(xy 229.87 36.83) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1a09ec-f7cd-4f6a-81f8-abe70d739b71")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 87.63 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2813,7 +3355,27 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 162.56) (xy 68.58 162.56)
+			(xy 172.72 36.83) (xy 175.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ef942f-d06e-490c-9048-6b826238121b")
+	)
+	(wire
+		(pts
+			(xy 160.02 36.83) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6685300-6dce-4721-aa29-66cfe252f015")
+	)
+	(wire
+		(pts
+			(xy 22.86 157.48) (xy 48.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2823,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 134.62 162.56)
+			(xy 48.26 157.48) (xy 114.3 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2831,8 +3393,18 @@
 		)
 		(uuid "fddbe89a-e237-4d05-8a48-b16499442563")
 	)
+	(wire
+		(pts
+			(xy 175.26 64.77) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7bdd1d-9de6-4154-a0d5-653b99a85555")
+	)
 	(image
-		(at 91.44 112.0043)
+		(at 71.12 106.9243)
 		(scale 0.0558907)
 		(uuid "67a1f1c8-211e-457b-9c6b-fba12ebbaedf")
 		(data "iVBORw0KGgoAAAANSUhEUgAABLAAAASwCAMAAADc/0P9AAABC1BMVEUAAAD48PD/////////////"
@@ -4674,7 +5246,7 @@
 		)
 	)
 	(image
-		(at 93.472 29.718)
+		(at 73.152 24.638)
 		(scale 0.120716)
 		(uuid "6e2ee04c-1c67-4cb6-8451-2e521ec834d4")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAkIAAAGQCAYAAABCuQ+5AAAABGdBTUEAALGPC/xhBQAAACBjSFJN"
@@ -5171,9 +5743,507 @@
 			"QmCC"
 		)
 	)
+	(image
+		(at 254.508 24.892)
+		(scale 0.120716)
+		(uuid "f87ff871-4759-4c6e-a816-0462ca5c0c2c")
+		(data "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"
+			"QmCC"
+		)
+	)
 	(hierarchical_label "COLUMN1"
 		(shape input)
-		(at 107.95 35.56 90)
+		(at 87.63 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5184,7 +6254,7 @@
 	)
 	(hierarchical_label "ROW0"
 		(shape output)
-		(at 43.18 52.07 180)
+		(at 22.86 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5199,7 +6269,7 @@
 	)
 	(hierarchical_label "COLUMN0"
 		(shape input)
-		(at 53.34 35.56 90)
+		(at 33.02 30.48 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5214,7 +6284,7 @@
 	)
 	(hierarchical_label "COLUMN1"
 		(shape input)
-		(at 119.38 118.11 90)
+		(at 99.06 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5223,9 +6293,35 @@
 		)
 		(uuid "3d3f0696-6f31-4e52-98f6-822aab07f2cc")
 	)
+	(hierarchical_label "ROW1"
+		(shape input)
+		(at 149.86 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "442415de-2a8d-4617-b02c-da3ed6d29683")
+	)
+	(hierarchical_label "ROW0"
+		(shape output)
+		(at 149.86 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+			(justify right)
+		)
+		(uuid "754fe513-458c-44ec-8bd2-8d00819139e0")
+	)
 	(hierarchical_label "ROW0"
 		(shape input)
-		(at 43.18 134.62 180)
+		(at 22.86 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5237,7 +6333,7 @@
 	)
 	(hierarchical_label "COLUMN0"
 		(shape input)
-		(at 53.34 118.11 90)
+		(at 33.02 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5252,7 +6348,7 @@
 	)
 	(hierarchical_label "ROW1"
 		(shape input)
-		(at 43.18 80.01 180)
+		(at 22.86 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5261,9 +6357,21 @@
 		)
 		(uuid "bec22bdc-b517-4cfb-9d78-3050094493c9")
 	)
+	(hierarchical_label "COLUMN0"
+		(shape input)
+		(at 160.02 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "d42cf9d9-540c-4f84-93d5-0e686830f6bc")
+	)
 	(hierarchical_label "ROW1"
 		(shape output)
-		(at 43.18 162.56 180)
+		(at 22.86 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5276,26 +6384,42 @@
 		)
 		(uuid "f1821019-4812-4351-9fbf-d6475f8f56e9")
 	)
+	(hierarchical_label "COLUMN1"
+		(shape input)
+		(at 214.63 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+			(justify left)
+		)
+		(uuid "ff44ce34-78b3-4ba6-bb59-0d555d256709")
+	)
 	(symbol
+		(lib_name "SW_Push_1")
 		(lib_id "Switch:SW_Push")
-		(at 60.96 124.46 0)
+		(at 222.25 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "45d3b191-315d-4e0a-bb69-e5bd92b9a47e")
-		(property "Reference" "Key1"
-			(at 60.96 119.38 0)
+		(uuid "44733c19-b2d4-4c77-aca0-cd5a13b73ace")
+		(property "Reference" "Key3"
+			(at 222.25 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 61.468 125.476 0)
+		(property "Value" "~"
+			(at 222.758 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +6429,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +6438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +6447,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +6456,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 60.96 129.54 0)
+			(at 222.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +6465,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +6474,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +6483,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +6492,7 @@
 			)
 		)
 		(property "DigiKey Part #" ""
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +6501,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +6510,7 @@
 			)
 		)
 		(property "Part.Notes" ""
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +6519,149 @@
 			)
 		)
 		(property "IsFootprintValid" ""
-			(at 60.96 124.46 0)
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bed8bbc-91ff-4089-b837-f85625c3fbdd")
+		)
+		(pin "1"
+			(uuid "c1f8fc63-6cbf-4a7c-af45-9aca468d8226")
+		)
+		(instances
+			(project "ghosting_example"
+				(path "/1cbe02ea-f901-4ca1-bbc1-dcd57906b185"
+					(reference "Key3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 40.64 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d3b191-315d-4e0a-bb69-e5bd92b9a47e")
+		(property "Reference" "Key1"
+			(at 40.64 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.148 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part.Notes" ""
+			(at 40.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" ""
+			(at 40.64 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +6687,7 @@
 	(symbol
 		(lib_name "SW_Push_3")
 		(lib_id "Switch:SW_Push")
-		(at 127 124.46 0)
+		(at 106.68 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5430,15 +6696,15 @@
 		(fields_autoplaced yes)
 		(uuid "51307b2e-f8f0-4278-ac27-10c2bccc28af")
 		(property "Reference" "Key3"
-			(at 127 119.38 0)
+			(at 106.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 127.508 125.476 0)
+		(property "Value" "~"
+			(at 107.188 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +6714,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +6723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +6732,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +6741,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 127 129.54 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +6750,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5493,7 +6759,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,7 +6768,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +6777,7 @@
 			)
 		)
 		(property "DigiKey Part #" ""
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +6786,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +6795,7 @@
 			)
 		)
 		(property "Part.Notes" ""
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +6804,7 @@
 			)
 		)
 		(property "IsFootprintValid" ""
-			(at 127 124.46 0)
+			(at 106.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +6830,7 @@
 	(symbol
 		(lib_name "SW_Push_5")
 		(lib_id "Switch:SW_Push")
-		(at 60.96 41.91 0)
+		(at 40.64 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5573,15 +6839,15 @@
 		(fields_autoplaced yes)
 		(uuid "626960db-9e72-4275-8cbe-5ff44aca3e07")
 		(property "Reference" "Key1"
-			(at 60.96 36.83 0)
+			(at 40.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 61.468 42.926 0)
+		(property "Value" "~"
+			(at 41.148 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +6857,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +6866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +6875,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5618,7 +6884,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 60.96 46.99 0)
+			(at 40.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +6893,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +6902,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +6911,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +6920,7 @@
 			)
 		)
 		(property "DigiKey Part #" ""
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +6929,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +6938,7 @@
 			)
 		)
 		(property "Part.Notes" ""
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +6947,7 @@
 			)
 		)
 		(property "IsFootprintValid" ""
-			(at 60.96 41.91 0)
+			(at 40.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +6973,7 @@
 	(symbol
 		(lib_name "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_1")
 		(lib_id "custom:1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout")
-		(at 60.96 72.39 0)
+		(at 40.64 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5716,15 +6982,15 @@
 		(fields_autoplaced yes)
 		(uuid "6d48bd43-68d8-4f5e-a591-bc4e03f350bd")
 		(property "Reference" "Key2"
-			(at 60.96 64.77 0)
+			(at 40.64 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 61.468 73.406 0)
+		(property "Value" "~"
+			(at 41.148 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +7000,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 60.96 72.39 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +7009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 72.39 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +7018,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 60.96 72.39 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +7027,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 60.96 77.47 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +7036,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 60.96 72.39 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,7 +7045,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 60.96 72.39 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +7054,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 60.96 72.39 0)
+			(at 40.64 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +7080,7 @@
 	(symbol
 		(lib_name "SW_Push_2")
 		(lib_id "Switch:SW_Push")
-		(at 127 152.4 0)
+		(at 106.68 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5823,15 +7089,15 @@
 		(fields_autoplaced yes)
 		(uuid "701cd00d-ea45-4a21-b0ef-8653e1e3e900")
 		(property "Reference" "Key4"
-			(at 127 147.32 0)
+			(at 106.68 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 127.508 153.416 0)
+		(property "Value" "~"
+			(at 107.188 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +7107,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +7116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +7125,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +7134,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 127 157.48 0)
+			(at 106.68 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +7143,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +7152,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +7161,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +7170,7 @@
 			)
 		)
 		(property "DigiKey Part #" ""
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +7179,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +7188,7 @@
 			)
 		)
 		(property "Part.Notes" ""
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +7197,7 @@
 			)
 		)
 		(property "IsFootprintValid" ""
-			(at 127 152.4 0)
+			(at 106.68 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +7223,7 @@
 	(symbol
 		(lib_name "SW_Push_4")
 		(lib_id "Switch:SW_Push")
-		(at 115.57 69.85 0)
+		(at 95.25 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5966,15 +7232,15 @@
 		(fields_autoplaced yes)
 		(uuid "702fbf75-259e-4b57-aa4f-66461ab9eaee")
 		(property "Reference" "Key4"
-			(at 115.57 64.77 0)
+			(at 95.25 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 116.078 70.866 0)
+		(property "Value" "~"
+			(at 95.758 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +7250,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +7259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +7268,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +7277,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 115.57 74.93 0)
+			(at 95.25 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +7286,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +7295,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +7304,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +7313,7 @@
 			)
 		)
 		(property "DigiKey Part #" ""
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +7322,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +7331,7 @@
 			)
 		)
 		(property "Part.Notes" ""
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +7340,7 @@
 			)
 		)
 		(property "IsFootprintValid" ""
-			(at 115.57 69.85 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +7365,7 @@
 	)
 	(symbol
 		(lib_id "custom:1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout")
-		(at 60.96 154.94 0)
+		(at 40.64 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6108,15 +7374,15 @@
 		(fields_autoplaced yes)
 		(uuid "8f760888-722f-4334-b12a-56babe891053")
 		(property "Reference" "Key2"
-			(at 60.96 147.32 0)
+			(at 40.64 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 61.468 155.956 0)
+		(property "Value" "~"
+			(at 41.148 150.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +7392,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 60.96 154.94 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +7401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 154.94 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +7410,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 60.96 154.94 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +7419,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 60.96 160.02 0)
+			(at 40.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +7428,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 60.96 154.94 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +7437,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 60.96 154.94 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +7446,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 60.96 154.94 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6204,26 +7470,26 @@
 		)
 	)
 	(symbol
-		(lib_name "SW_Push_1")
+		(lib_name "SW_Push_5")
 		(lib_id "Switch:SW_Push")
-		(at 115.57 41.91 0)
+		(at 167.64 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df222863-300c-4e0a-b992-72baf10f4d41")
-		(property "Reference" "Key3"
-			(at 115.57 36.83 0)
+		(uuid "dd52ce72-a554-4cb4-920d-e7692c2e83fb")
+		(property "Reference" "Key1"
+			(at 167.64 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 116.078 42.926 0)
+		(property "Value" "~"
+			(at 168.148 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +7499,7 @@
 			)
 		)
 		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,7 +7508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +7517,7 @@
 			)
 		)
 		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +7526,7 @@
 			)
 		)
 		(property "LED_Reference" "LED_${REFERENCE}"
-			(at 115.57 46.99 0)
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +7535,7 @@
 			)
 		)
 		(property "MFR.Part #" "CPG151101S11-16"
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +7544,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C41430893"
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +7553,7 @@
 			)
 		)
 		(property "Mouser Part #" ""
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +7562,7 @@
 			)
 		)
 		(property "DigiKey Part #" ""
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +7571,7 @@
 			)
 		)
 		(property "JLCPCB.Kind" "Extended"
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +7580,7 @@
 			)
 		)
 		(property "Part.Notes" ""
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +7589,150 @@
 			)
 		)
 		(property "IsFootprintValid" ""
-			(at 115.57 41.91 0)
+			(at 167.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00c7fec3-a97b-4029-acc7-ec99e5dd2a7e")
+		)
+		(pin "1"
+			(uuid "e1ffccf8-7184-4a71-9a13-756660a09a45")
+		)
+		(instances
+			(project "ghosting_example"
+				(path "/1cbe02ea-f901-4ca1-bbc1-dcd57906b185"
+					(reference "Key1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_1")
+		(lib_id "Switch:SW_Push")
+		(at 95.25 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df222863-300c-4e0a-b992-72baf10f4d41")
+		(property "Reference" "Key3"
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 95.758 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part.Notes" ""
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" ""
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,6 +7750,256 @@
 			(project "ghosting_example"
 				(path "/1cbe02ea-f901-4ca1-bbc1-dcd57906b185"
 					(reference "Key3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_4")
+		(lib_id "Switch:SW_Push")
+		(at 222.25 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81e3ce7-ff4e-44f5-a421-951b235df91e")
+		(property "Reference" "Key4"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 222.758 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 222.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part #" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part #" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part.Notes" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IsFootprintValid" ""
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a13c33f7-e46e-4968-b3eb-f2f2059cf2d9")
+		)
+		(pin "1"
+			(uuid "e80c8703-6a46-411c-9b82-b5be9b5474d5")
+		)
+		(instances
+			(project "ghosting_example"
+				(path "/1cbe02ea-f901-4ca1-bbc1-dcd57906b185"
+					(reference "Key4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout_1")
+		(lib_id "custom:1u_Cherry_MX_Switch_RGB-SK6812MINI-E_cutout")
+		(at 167.64 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa79ada2-d499-404b-b9af-4bca0d8a75c6")
+		(property "Reference" "Key2"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 168.148 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:1u_Cherry_MX1A_5Pin_Switch_Kailh_Socket_with_SK6812MINI-E_cutout"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1u Cherry MX compatible switch socket including an RGB SK6812MINI-E LED cutout"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LED_Reference" "LED_${REFERENCE}"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR.Part #" "CPG151101S11-16"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C41430893"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB.Kind" "Extended"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58fe562f-b9b8-4900-b955-6442eee26c44")
+		)
+		(pin "1"
+			(uuid "4a02eeac-7ede-4f59-8816-efedfbe72ff8")
+		)
+		(instances
+			(project "ghosting_example"
+				(path "/1cbe02ea-f901-4ca1-bbc1-dcd57906b185"
+					(reference "Key2")
 					(unit 1)
 				)
 			)
