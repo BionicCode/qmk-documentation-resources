@@ -1764,7 +1764,7 @@
 		(uuid 87e69dae-8598-4359-9c74-a3a4fdf0dfba)
 	)
 	(rectangle
-		(start 105.41 39.37)
+		(start 105.41 36.83)
 		(end 133.35 62.23)
 		(stroke
 			(width 0)
@@ -1776,7 +1776,7 @@
 		(uuid 99436cf3-6022-49d9-bcb0-8f43c742e84f)
 	)
 	(rectangle
-		(start 105.41 93.98)
+		(start 105.41 91.44)
 		(end 133.35 116.84)
 		(stroke
 			(width 0)
@@ -3664,7 +3664,7 @@
 		(dnp no)
 		(uuid "082ba792-2594-48b9-8d8e-f3a0a17edbfc")
 		(property "Reference" "Output"
-			(at 111.506 97.79 0)
+			(at 111.76 94.234 0)
 			(effects
 				(font
 					(size 3 3)
@@ -4553,7 +4553,7 @@
 		(dnp no)
 		(uuid "c264f463-075b-45cc-9e8b-9091e282910b")
 		(property "Reference" "Output"
-			(at 111.506 43.18 0)
+			(at 111.76 39.624 0)
 			(effects
 				(font
 					(size 3 3)
