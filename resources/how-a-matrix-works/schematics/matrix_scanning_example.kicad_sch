@@ -2366,7 +2366,29 @@
 		)
 		(uuid "09f4fb21-0808-4015-bf70-6e2a8f739ed4")
 	)
-	(text "Scanning Column1 and Row0"
+	(text "↓"
+		(exclude_from_sim no)
+		(at 171.196 55.626 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "0d885cd5-7096-4a5e-8be5-b128ecf9a3c8")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 153.162 59.182 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "1424285a-5bb5-4bfc-a2d5-2d57ecdbf088")
+	)
+	(text "Scanning Column1 of Row0"
 		(exclude_from_sim no)
 		(at 182.626 27.686 0)
 		(effects
@@ -2386,6 +2408,28 @@
 			)
 		)
 		(uuid "1830788f-e89f-4a5a-8bde-070926d03949")
+	)
+	(text "→"
+		(exclude_from_sim no)
+		(at 166.116 52.832 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "288daa6f-62a2-4bbf-abe0-1bd5a5723caa")
+	)
+	(text "←"
+		(exclude_from_sim no)
+		(at 165.862 59.182 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "2d5298b8-cc30-4d77-9bb7-34c3074fae6c")
 	)
 	(text "⇨"
 		(exclude_from_sim no)
@@ -2409,7 +2453,7 @@
 		)
 		(uuid "34a26e26-bbd3-46e9-b88d-6002f48e223a")
 	)
-	(text "HIGH (inactive)"
+	(text "LOW (inactive)"
 		(exclude_from_sim no)
 		(at 167.894 38.862 0)
 		(effects
@@ -2502,7 +2546,7 @@
 		)
 		(uuid "53d82872-a329-44d8-ada3-fb84fa520a0e")
 	)
-	(text "Scanning Column0 and Row1"
+	(text "Scanning Column0 of Row1"
 		(exclude_from_sim no)
 		(at 68.834 104.902 0)
 		(effects
@@ -2522,7 +2566,7 @@
 		)
 		(uuid "569f2dd2-4a8b-41ce-a7c8-3829c4c25563")
 	)
-	(text "Scanning Column0 and Row0"
+	(text "Scanning Column0 of Row0"
 		(exclude_from_sim no)
 		(at 69.596 27.686 0)
 		(effects
@@ -2542,6 +2586,17 @@
 			)
 		)
 		(uuid "5f7ee268-698d-40a1-bd08-ba06fa861c4e")
+	)
+	(text "↓"
+		(exclude_from_sim no)
+		(at 157.226 47.244 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 7 255 92 1)
+			)
+		)
+		(uuid "5fd56784-7bd7-48f1-b956-858f193ddd61")
 	)
 	(text "LOW     'Key1' key press detected"
 		(exclude_from_sim no)
@@ -2776,7 +2831,7 @@
 		)
 		(uuid "e76592f9-4644-4d7b-b013-939656bb0168")
 	)
-	(text "Scanning Column1 and Row1"
+	(text "Scanning Column1 of Row1"
 		(exclude_from_sim no)
 		(at 203.454 104.902 0)
 		(effects
@@ -2859,7 +2914,7 @@
 		)
 		(uuid "ce1fc18c-0179-4842-ad2b-a8edaddf7d39")
 	)
-	(text_box "No current flows through 'Key1' (and 'D1') because 'ROW0' and 'COLUMN0' are both HIGH (same voltage potential)."
+	(text_box "Current continues to flow causing 'COLUMN0' to be pulled 'LOW' ('ROW0' and the inactive 'COLUMN0' are still physically connected)."
 		(exclude_from_sim no)
 		(at 173.99 41.91 0)
 		(size 30.48 10.16)
@@ -2879,7 +2934,7 @@
 		)
 		(uuid "ce8ca377-6e2b-492f-bd9b-666a82c2f839")
 	)
-	(text_box "No current flows through 'Key4' (and 'D4') because 'ROW1' and 'COLUMN1' are both HIGH (same voltage potential."
+	(text_box "No current flows through 'Key4' (and 'D4') because 'ROW1' and 'COLUMN1' are both HIGH (same voltage potential)."
 		(exclude_from_sim no)
 		(at 232.41 72.39 0)
 		(size 30.48 10.16)
@@ -3038,6 +3093,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6309743-266e-4c69-a695-3afe01eca525")
+	)
+	(wire
+		(pts
+			(xy 158.75 50.8) (xy 161.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067f1183-81d8-4bd7-b1b6-79f6391af282")
 	)
 	(wire
 		(pts
@@ -3908,16 +3973,6 @@
 			(type default)
 		)
 		(uuid "bea68ac5-c2ff-4004-968b-3d8dfd3a5f4a")
-	)
-	(wire
-		(pts
-			(xy 158.75 50.8) (xy 161.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf1b3bea-f272-4e5d-a7e1-2d59c52457e8")
 	)
 	(wire
 		(pts
